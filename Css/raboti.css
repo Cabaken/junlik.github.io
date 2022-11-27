@@ -1,0 +1,43 @@
+body {
+	background-color:#4F4F4F;
+	text-decoration-color: white;
+	margin: 0;
+}
+
+.block1 {
+	display: flex;
+
+}
+
+.tatto-card {
+  display: grid;
+  grid-template-columns: 400px 400px 400px 400px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+	left: 10%;
+}
+
+h1 {
+	color: white;
+	font-family: 'Jura', sans-serif;	
+	text-align: center;
+	font-size: 40px;
+}
+
+p {
+	color: white;
+	font-family: 'Jura', sans-serif;	
+	text-align: center;
+	font-size: 30px;
+	margin-left: 5%;
+}
+
+.footerimg {
+	width: 100%;
+}
+
+.headerimg {
+	height: 200px;
+	width: 100%;
+}

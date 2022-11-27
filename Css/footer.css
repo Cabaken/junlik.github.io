@@ -1,0 +1,102 @@
+footer{
+  background-color: #1A1A1A;
+    width: 100%;
+   
+    
+}
+.contact{
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+}
+.addres {
+    color: white;
+    font-size: 18px;
+    width: 18%
+}
+
+.social{
+    width: 15%;
+}
+.title{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 25px;
+}
+.addres a{
+    color: white;
+    text-decoration: none;
+}
+.icon{
+    width: 23px;
+    height: 23px;
+}
+.zapic{
+    width: 18%;
+}
+.button{
+    background-color: #4F4F4F;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+.button a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .zapic{
+    width: 100%;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+
+}
+.addres a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.button{
+        background-color: #4F4F4F;
+    width: 180px;
+    height: 30px;
+    border-radius: 7px;
+    
+}
+.contact{
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.addres {
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    
+        display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.social{
+        width: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 13px;
+    align-content: space-around;
+}
+.title{
+    font-size: 16px;
+    color: white;
+    padding-bottom: 8px;
+}
+}

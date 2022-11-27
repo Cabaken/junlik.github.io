@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+  padding: 0;
+
+}
+header{
+  background-color: #1A1A1A;
+  margin: 0;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+
+}
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.head ul{
+  display: flex;
+  justify-content: space-between;
+}
+.head li{
+  list-style: none;
+}
+.head a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 40px;
+}
+nav{
+  position: relative;
+  width: 40%;
+}
+
+.logo{
+  background-image: url(img/back.jpg);
+
+}
+
+
+a {
+  font-family: 'Jura', sans-serif;
+}
+
+@media screen and (max-width: 1300px) {
+    nav{
+  position: relative;
+  width: 80%;
+}
+
+}
+
+@media (max-width: 1000px) {
+
+.cnop {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.cnop:hover, .cnop:focus {
+    background-color: white;
+}
+
+
+.head {
+    position: relative;
+    display: inline-block;
+
+}
+.head ul{
+  flex-direction: column-reverse;
+  
+}
+
+.head-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+
+    z-index: 1;
+}
+
+
+.head a {
+    color: black;
+    padding: 5px ;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+
+.show {display:block;}
+}
+

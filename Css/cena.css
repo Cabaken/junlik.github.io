@@ -1,0 +1,33 @@
+.vse{
+	background-color: #4F4F4F;
+	overflow: hidden;
+}
+.h1{
+	padding-bottom: 40px;
+}
+.container {
+  display: grid; 
+  grid-template-columns: 25% 25% ; 
+   grid-row-gap: 85px;
+  grid-template-areas: 
+    "foto text"
+    "foto2 text2"
+    "foto3 text3"; 
+    text-align: center;
+}
+.foto { grid-area: foto; }
+.text { grid-area: text; }
+.foto2 { grid-area: foto2; }
+.text2 { grid-area: text2; }
+.foto3 { grid-area: foto3; }
+.text3 { grid-area: text3; }
+p{
+margin-top: 50%;
+}
+.min{
+	text-align: center;
+	padding-bottom: 40px;
+}
+.min a{
+	font-size: 25px;
+}

@@ -1,0 +1,47 @@
+.glav{
+	background-color: #4F4F4F;
+	
+}
+
+h1 {
+   font-family:'Jura', sans-serif;
+   color: white;
+   text-align: center;
+   font-size: 45px;
+   margin: 0;
+}
+
+a {
+
+   color: white;
+}
+
+.mastera{
+	background-color: #4F4F4F;
+}
+.grid {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1.8fr 0.2fr 1.8fr 0.2fr; 
+  grid-template-areas: 
+    "one two three"
+    "four five six"
+    "seven eight nine"
+    "ten eleven twelve"; 
+    text-align: center;
+}
+.one { grid-area: one; }
+.two { grid-area: two; }
+.three { grid-area: three; }
+.four { grid-area: four; }
+.five { grid-area: five; }
+.six { grid-area: six; }
+.seven { grid-area: seven; }
+.eight { grid-area: eight; }
+.nine { grid-area: nine; }
+.ten { grid-area: ten; }
+.eleven { grid-area: eleven; }
+.twelve { grid-area: twelve; }
+.grid a{
+	font-size: 25px;
+}
